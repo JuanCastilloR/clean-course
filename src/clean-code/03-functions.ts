@@ -35,7 +35,8 @@
         // ..
         if ( fullName === 'fernando' ) return false;
 
-        console.log('Crear actor');
+        console.log(`Crear actor ${fullName} ${birthdate}`);
+        
         return true;        
 
     }
